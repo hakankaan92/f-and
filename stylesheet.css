@@ -1,0 +1,32 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    color: #000000;
+    font-size: 19px;
+    line-height: 1.6;
+}
+
+h4 {
+    color: #EA545B;
+    font-size: 32px;
+    margin-bottom: 20px; /* Leerzeile nach Hauptüberschrift */
+}
+
+h5, h6 {
+    color: #EA545B;
+    font-size: 19px;
+    margin-top: 30px;
+    margin-bottom: 0; /* Keine Leerzeile nach Unterüberschrift */
+}
+
+ul, ol {
+    margin-top: 10px;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
