@@ -1,6 +1,6 @@
 body {
     font-family: 'Open Sans', sans-serif;
-    color: #000000;
+    color: #024466;
     font-size: 19px;
     line-height: 1.6;
     overflow: hidden; /* Verhindert Scrollen im HTML-Bereich */
@@ -8,16 +8,18 @@ body {
 
 h1 {
     color: #EA545B;
-    font-size: 32px;
+    font-size: 35px;
     margin-bottom: 20px;
+    font-weight: bold;
 }
 
 
 
 h2 {
     color: #EA545B;
-    font-size: 32px;
+    font-size: 28px;
     margin-bottom: 20px;
+    font-weight: bold;
 }
 
 
