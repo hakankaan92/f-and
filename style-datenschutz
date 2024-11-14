@@ -3,19 +3,20 @@ body {
     color: #000000;
     font-size: 19px;
     line-height: 1.6;
+    overflow: hidden; /* Verhindert Scrollen im HTML-Bereich */
 }
 
 h4 {
     color: #EA545B;
     font-size: 32px;
-    margin-bottom: 20px; /* Leerzeile nach Hauptüberschrift */
+    margin-bottom: 20px;
 }
 
 h5, h6 {
     color: #EA545B;
     font-size: 19px;
     margin-top: 30px;
-    margin-bottom: 0; /* Keine Leerzeile nach Unterüberschrift */
+    margin-bottom: 0;
 }
 
 ul, ol {
@@ -29,4 +30,10 @@ li {
 img {
     max-width: 100%;
     height: auto;
+}
+
+/* Stellen Sie sicher, dass der Container auf die Seitenbreite angepasst ist */
+#content-container {
+    overflow: visible;
+    width: 100%;
 }
