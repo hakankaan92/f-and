@@ -6,6 +6,28 @@ body {
     overflow: hidden; /* Verhindert Scrollen im HTML-Bereich */
 }
 
+h1 {
+    color: #EA545B;
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+
+
+h2 {
+    color: #EA545B;
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+
+
+h3 {
+    color: #EA545B;
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
 h4 {
     color: #EA545B;
     font-size: 32px;
