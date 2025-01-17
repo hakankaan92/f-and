@@ -1,25 +1,29 @@
+/* Basis-Styling */
 body {
     font-family: 'Open Sans', sans-serif;
     color: #000000;
-    font-size: 19px;
+    font-size: 19px; /* Standardgröße für Desktop */
     line-height: 1.6;
+    margin: 0;
+    padding: 0;
 }
 
 h4 {
     color: #EA545B;
-    font-size: 32px;
+    font-size: 32px; /* Standardgröße für Desktop */
     margin-bottom: 20px; /* Leerzeile nach Hauptüberschrift */
 }
 
 h5, h6 {
     color: #EA545B;
-    font-size: 19px;
+    font-size: 19px; /* Standardgröße für Desktop */
     margin-top: 30px;
     margin-bottom: 0; /* Keine Leerzeile nach Unterüberschrift */
 }
 
 ul, ol {
     margin-top: 10px;
+    padding-left: 20px; /* Abstand für Listen */
 }
 
 li {
@@ -29,4 +33,51 @@ li {
 img {
     max-width: 100%;
     height: auto;
+}
+
+/* Responsives Design */
+@media (max-width: 1024px) {
+    body {
+        font-size: 18px; /* Etwas kleinere Schriftgröße für Tablets */
+    }
+
+    h4 {
+        font-size: 28px; /* Überschriften für Tablets anpassen */
+    }
+
+    h5, h6 {
+        font-size: 17px;
+    }
+}
+
+@media (max-width: 768px) {
+    body {
+        font-size: 16px; /* Kleinere Schriftgröße für Smartphones */
+    }
+
+    h4 {
+        font-size: 24px; /* Kleinere Hauptüberschrift für Smartphones */
+    }
+
+    h5, h6 {
+        font-size: 15px; /* Kleinere Unterüberschriften für Smartphones */
+    }
+}
+
+@media (max-width: 480px) {
+    body {
+        font-size: 14px; /* Kleinere Schriftgröße für sehr kleine Bildschirme */
+    }
+
+    h4 {
+        font-size: 20px; /* Kompakte Hauptüberschrift */
+    }
+
+    h5, h6 {
+        font-size: 13px; /* Kompakte Unterüberschrift */
+    }
+
+    ul, ol {
+        padding-left: 15px; /* Weniger Einzug für kleine Bildschirme */
+    }
 }
